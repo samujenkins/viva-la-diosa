@@ -1,0 +1,93 @@
+:root{
+    --cor01: #ba4ea1;
+    --cor02: #7a336a;
+    --cor03: #fa69d7;
+    --cor04: #3b1933;
+    --cor05: #e05ec2;
+}
+@font-face {
+    font-family: girls;
+    src: url(../fontes/Girls.otf);
+}
+html{
+    background-image: linear-gradient(to top, --cor01, --cor02, --cor04);
+}
+body{
+    background-color:var(--cor05);
+    max-width: 900px;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+   }
+header > h1{
+    font-family: girls;
+    font-size: 60px;
+    text-align: center;
+    background-color: var(--cor04) ;
+    color: var(--cor03);
+    margin-bottom: 0%;
+    margin-top: 0%;
+    letter-spacing: 7px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+   }
+header > p{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    background-color: var(--cor04);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: var(--cor03);
+    padding-bottom: 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+nav{
+    background-color: var(--cor04);
+    border-radius: 15px;
+}
+nav > ul{
+    display:flex;
+    padding-left: 0px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+nav > ul > li{
+    list-style-type: none;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: var(--cor03);
+}
+main{
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 10px;
+}
+main > h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--cor04);
+}
+main > p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+table{
+    background-color: white;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+footer{
+    text-align: center;
+    background-color: var(--cor04);
+    color: var(--cor03);
+}
+footer > p > a{
+    color: var(--cor03);
+}
