@@ -1,3 +1,4 @@
+
 :root{
     --cor01: #ba4ea1;
     --cor02: #7a336a;
@@ -9,12 +10,15 @@
     font-family: girls;
     src: url(../fontes/Girls.otf);
 }
+html::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
 html{
 background-image: url('../imagens/fundo.jpg');
 background-size: cover;
 }
 body{
-    background-color:var(--cor05);
     border-radius: 15px;
     max-width: 900px;
     min-width: 300px;
@@ -87,18 +91,19 @@ table{
     padding-bottom: 5px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-  }
-td{
-    border-width: 0px;
-} 
+    box-sizing: border-box;
+}
+    
+
+
 footer{
     text-align: center;
     background-color: var(--cor04);
     color: var(--cor03);
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-radius: 15px;
+    margin-top: 2px;
     padding-top: 2px;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
 }
 footer > p > a{
     color: var(--cor03);
